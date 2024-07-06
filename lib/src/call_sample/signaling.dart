@@ -49,7 +49,7 @@ class Signaling {
   SimpleWebSocket? _socket;
   BuildContext? _context;
   var _host;
-  var _port = 8086;
+  var _port = 443;
   var _turnCredential;
   Map<String, Session> _sessions = {};
   MediaStream? _localStream;
